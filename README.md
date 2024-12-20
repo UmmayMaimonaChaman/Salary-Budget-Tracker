@@ -1,6 +1,8 @@
 # Salary-Budget-Tracker
 Python
 
+This was an basic project of my python learning journey. Anyyone can learn or copy but if you do so please let me know atleast... :)
+
 
 This Python script is designed to function as a budget tracker, enabling users to manage and monitor their personal finances efficiently. The program features a straightforward interface through which users can add transactions, view summaries, and list all recorded transactions. Transactions are categorized as either income or expenses, each stored with an associated amount and description in a list.
 
