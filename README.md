@@ -1,19 +1,102 @@
-# Salary-Budget-Tracker
-Python
+# Salary Budget Tracker
 
-This was an basic project of my python learning journey. Anyyone can learn or copy but if you do so please let me know atleast... :)
+A simple **Python-based personal budget tracker** created as part of my Python learning journey.
 
+The program allows users to record their income and expenses, view their financial summary, and review previously recorded transactions.
 
-This Python script is designed to function as a budget tracker, enabling users to manage and monitor their personal finances efficiently. The program features a straightforward interface through which users can add transactions, view summaries, and list all recorded transactions. Transactions are categorized as either income or expenses, each stored with an associated amount and description in a list.
+## Features
 
-The main functionalities are organized into functions:
+* Add income transactions
+* Add expense transactions
+* View total income
+* View total expenses
+* Calculate the current balance
+* View all recorded transactions
+* Basic input validation
+* Simple command-line interface
 
-add_transaction: This function records a transaction by appending a dictionary containing the transaction type (income or expense), amount, and description to the transactions list.
+## How It Works
 
-view_summary: It calculates and displays the total income, total expenses, and the net balance by iterating over the transactions list, summing up income and expense amounts separately.
+Transactions are stored as dictionaries inside a Python list. Each transaction contains:
 
-view_transactions: This function prints out all recorded transactions in a user-friendly format, showing the transaction type, amount, and description.
+* **Type** — income or expense
+* **Amount** — transaction value
+* **Description** — short description of the transaction
 
-The main function operates the user interface, presenting a menu with options to add income, add expenses, view summary, view transactions, or quit the program. It uses a loop to continually display the menu until the user decides to exit, allowing multiple interactions in a single session. Input validation is incorporated to handle errors gracefully, ensuring users enter valid amounts for transactions.
+The program provides a menu-driven interface that allows users to perform different operations until they choose to exit.
 
-This budget tracker script provides a simple yet effective tool for users to keep track of their financial activities, helping them maintain an overview of their financial status.
+## Main Functions
+
+### `add_transaction()`
+
+Records a new income or expense and adds it to the transaction list.
+
+### `view_summary()`
+
+Calculates and displays:
+
+* Total income
+* Total expenses
+* Net balance
+
+### `view_transactions()`
+
+Displays all recorded transactions along with their type, amount, and description.
+
+### `main()`
+
+Runs the command-line interface and manages user interaction through a continuous menu.
+
+## Getting Started
+
+### Requirements
+
+* Python 3.x
+
+### Run the Program
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Navigate to the project directory:
+
+```bash
+cd Salary-Budget-Tracker
+```
+
+Run the Python script:
+
+```bash
+python <filename>.py
+```
+
+## Example Workflow
+
+```text
+1. Add Income
+2. Add Expense
+3. View Summary
+4. View Transactions
+5. Quit
+```
+
+Users can repeatedly add transactions and review their financial summary during a session.
+
+## Project Purpose
+
+This project was developed as a beginner Python project to practice:
+
+* Functions
+* Lists and dictionaries
+* Loops
+* Conditional statements
+* User input
+* Basic input validation
+* Command-line program design
+
+## License
+
+This project is available for learning and educational purposes.
