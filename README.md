@@ -97,6 +97,14 @@ This project was developed as a beginner Python project to practice:
 * Basic input validation
 * Command-line program design
 
+### Example Summary
+
+```text
+Total Income: 50000
+Total Expenses: 18500
+Net Balance: 31500
+```
+
 ## License
 
 This project is available for learning and educational purposes.
